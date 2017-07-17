@@ -9,13 +9,14 @@ import {SamuService} from './services/samu.service'
 import {UFs} from './services/mock-ufs';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'my-todos-dados',
+  templateUrl: './todos-dados.component.html',
   styleUrls: ['./app.component.css'],
   providers: [UFService, SamuService]
 })
-export class AppComponent implements OnInit {
-    title = 'Detalhes do serviço da SAMU, maravilhoso, né?';
+
+export class TodosDadosComponent implements OnInit {
+    title = 'Todos os dados';
     ufs : UF[];
     uf: UF;
     qtd: number;
