@@ -15,7 +15,7 @@ import {UFs} from './services/mock-ufs';
   providers: [UFService, SamuService]
 })
 export class AppComponent implements OnInit {
-    title = 'Detalhes do serviço da SAMU, maravilhoso, né?';
+    title = 'Detalhes do serviço SAMU';
     ufs : UF[];
     uf: UF;
     qtd: number;
